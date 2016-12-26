@@ -1,0 +1,77 @@
+@bodyBackground:        #e8e8e8;
+@textColor:             #40687d;
+
+@baseFontSize:          12px;
+@baseFontFamily:        Arial;
+@baseLineHeight:        16px;
+@altFontFamily:         Arial;
+
+@headingsFontFamily:    @baseFontFamily; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         #d7d7d7; // empty to use BS default, @textColor
+
+
+// Links
+// -------------------------
+@linkColor:             #d7d7d7;
+@linkColorHover:        darken(@linkColor, 15%);
+
+
+@baseBorderRadius:      10px;
+@borderRadiusLarge:     8px;
+@borderRadiusSmall:     3px;
+
+
+@btnBackground:                     #2bacf1;
+@btnBackgroundHighlight:            #0585cb;
+@btnBorder:                         #027fc1;
+
+@btnPrimaryBackground:              @btnBackground;
+@btnPrimaryBackgroundHighlight:     @btnBackgroundHighlight;
+
+
+// Forms
+// -------------------------
+
+@inputBackground:               white;
+@inputBorder:                   #c0c1c3;
+@inputBorderRadius:             3px;
+@inputDisabledBackground:       rgba(189, 208, 221, 0.3);
+@formActionsBackground:         transparent;
+
+
+// Navbar
+// -------------------------
+@navbarHeight:                    58px;
+@navbarBackgroundHighlight:       @btnBackground;
+@navbarBackground:                @btnBackgroundHighlight;
+@navbarBorder:                    @btnBorder;
+
+@navbarText:                      white;
+@navbarLinkColor:                 @navbarText;
+@navbarLinkColorHover:            darken(@navbarText, 5%);
+@navbarLinkColorActive:           @navbarLinkColorHover;
+@navbarLinkBackgroundHover:       transparent;
+@navbarLinkBackgroundActive:      transparent;
+
+@navbarBrandColor:                @navbarLinkColor;
+
+
+// Wells
+// -------------------------
+@wellBackground: rgba(189, 208, 221, 0.5);
+
+
+// Pagination
+// -------------------------
+@paginationBackground:                transparent;
+@paginationBorder:                    transparent;
+@paginationActiveBackground:          transparent;
+
+
+// Default 940px grid
+// -------------------------
+@gridColumns:             12;
+@gridColumnWidth:         65px;
+@gridGutterWidth:         20px;
+@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));

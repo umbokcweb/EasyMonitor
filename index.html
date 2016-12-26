@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Easy Monitor</title>
+
+    <link rel="stylesheet/less" href="less/bootstrap.less" />
+    <script type="text/javascript" src="js/less-1.3.3.min.js"></script>
+    <script type="text/javascript"> localStorage.clear();</script>
+    <style>
+    /*
+        Additional styles from umbokc
+    */
+
+    header .navbar {height: 67px; top: 75px;    }
+    header .navbar .btn-group{display: flex; justify-content: space-around; padding-left: 20px;padding-right: 20px;}
+    header .navbar .btn-group .btn{width: auto; line-height: 52px;}
+    .btn-primary {background: url(img/btn-primary.png) no-repeat 0 0; height: 32px !important;}
+    .btn-primary:hover {background-position: 0 -32px;}
+    </style>
+</head>
+<body>
+<div class="page">
+    <header>
+        <div class="container">
+            <h1><a href="/" title=""></a></h1>
+            
+            <div class="navbar">
+                <div class="btn-group">
+                    <a href="/"><div class="btn">Главная</div></a>
+                    <a href="/"><div class="btn">Платное</div></a>
+                    <a href="/"><div class="btn">Листинг серверов</div></a>
+                    <a href="/"><div class="btn">Бан-лист</div></a>
+                    <a href="/"><div class="btn">Правила</div></a>
+                    <a href="/"><div class="btn">Серверы boost</div></a>
+                </div>
+            </div>
+
+            <a class="reg" href="/accounts/registration/">Регистрация</a>
+            
+            <form action="#" class="form-search simple-search-form">
+                <input class="search-query" placeholder="Поиск" type="text" name="q" value="" />
+                <button class="btn btn-primary" type="submit">Найти</button>
+            </form>
+
+            <section class="game-stat">
+                В данный момент в мониторинге <b class="servers-count">125</b> сервера
+                <b class="game-name">Counter Strike</b>, из которых
+                <b class="online-servers-count">74</b> сервер сейчас онлайн.
+                Играют <span class="current-players">456</span> игроков
+                из <span class="max-players">970</span> максимально возможных.
+            </section>
+
+            <section class="user-panel">
+                <a class="login-button btn btn-primary btn-mini" style="margin-top: 12px;" href="#">Войти</a>
+                <div class="authenticated">Вы вошли как username</div>
+            </section>
+            
+            <div class="top-menu"></div>
+
+
+        </div>
+    </header>
+
+    <div class="header-banners"></div>
+
+    <section id="page-messages" class="container"></section>
+
+    <section id="page-content" class="container">
+        
+        <div class="top-servers">
+            <div class="top-servers-slot">
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <a href="/"><img src="img/empty_place.png" alt=""></a>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h1><a href="/">supermega server №1</a></h1>
+                    <div class="address"><a href="server.html">221.12.121.12:2015</a></div>
+                    <figure>
+                        <span></span>
+                    </figure>
+                    <ul>
+                        <li><span>Игроков:</span><a href="/">2/32</a></li>
+                        <li><span>Карта:</span><a href="/">cs_hz</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <div class="servers-table">
+                <div class="thead">
+                    <div class="th orderable"><a href="#">название</a></div>
+                    <div class="th orderable"><a href="#">адрес сервера</a></div>
+                    <div class="th orderable"><a href="#">карта</a></div>
+                    <div class="th orderable"><a href="#">игроков</a></div>
+                    <div class="th orderable"><a href="#">голосов</a></div>
+                </div >
+                <div class="tbody">
+                    <div class="tr odd">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vote"><div class="score">20</div><div class="up"></div><div class="down"></div></div></div>
+                    </div>
+                    <div class="tr even">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vote"><div class="score">20</div><div class="up"></div><div class="down"></div></div></div>
+                    </div>
+                    <div class="tr odd">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vote"><div class="score">20</div><div class="up"></div><div class="down"></div></div></div>
+                    </div>
+                    <div class="tr even">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vip"></div></div>
+                    </div>
+                    <div class="tr odd">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vip"></div></div>
+                    </div>
+                    <div class="tr even">
+                        <div class="td name"><a href="">supermega server №1</a></div>
+                        <div class="td actions">221.12.121.12:2015</div>
+                        <div class="td map"><a href="">cs_hz</a></div>
+                        <div class="td players">16/32</div>
+                        <div class="td votes"><div class="vip"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="before-comments"></section>
+
+        <section id="server-comments"></section>
+    </section>
+</div>
+<footer>
+    <div class="container"></div>
+</footer>
+</body>
+</html>
+
